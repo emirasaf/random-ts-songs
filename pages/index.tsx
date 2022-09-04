@@ -236,7 +236,7 @@ export default function Home(props: any) {
   );
 }
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const response = await fetch("https://taylorswiftapi.herokuapp.com/get").then(
     (res) => res.json()
   );
