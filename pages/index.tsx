@@ -10,6 +10,7 @@ import Lover from "../components/Lover";
 import Reputation from "../components/Reputation";
 import Sn from "../components/Sn";
 import Fearless from "../components/Fearless";
+import Midnights from "../components/Midnights";
 
 export default function Home(props: any) {
   const [cover, setCover] = useState();
@@ -48,6 +49,11 @@ export default function Home(props: any) {
                 </h2>
               )}
               {cover == "evermore" && (
+                <h2 className="ml-3 mr-3 text-white font-semibold text-xl md:text-2xl md:ml-0 md:mr-0 lowercase">
+                  {props.response.song}
+                </h2>
+              )}
+              {cover == "Midnights" && (
                 <h2 className="ml-3 mr-3 text-white font-semibold text-xl md:text-2xl md:ml-0 md:mr-0 lowercase">
                   {props.response.song}
                 </h2>
@@ -146,6 +152,15 @@ export default function Home(props: any) {
           {cover == "Folklore" && (
             <Link
               href={"https://open.spotify.com/album/2fenSS68JI1h4Fo296JfGr"}
+            >
+              <a className="px-8 py-2 text-white font-medium border-2 border-[#1DB954] rounded-full hover:bg-[#1DB954] transition hover:text-[#191414]">
+                Listen on Spotify
+              </a>
+            </Link>
+          )}
+          {cover == "Midnights" && (
+            <Link
+              href={"https://open.spotify.com/album/151w1FgRZfnKZA9FEcg9Z3"}
             >
               <a className="px-8 py-2 text-white font-medium border-2 border-[#1DB954] rounded-full hover:bg-[#1DB954] transition hover:text-[#191414]">
                 Listen on Spotify
