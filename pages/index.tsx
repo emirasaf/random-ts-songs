@@ -49,7 +49,7 @@ export default function Home(props: any) {
                   {props.response.song}
                 </h2>
               )}
-              {cover == "evermore" && (
+              {cover == "Evermore" && (
                 <h2 className="ml-3 mr-3 text-white font-semibold text-xl md:text-2xl md:ml-0 md:mr-0 lowercase">
                   {props.response.song}
                 </h2>
