@@ -40,6 +40,7 @@ export default function Home(props: any) {
             {cover == "Speak Now" && <Sn></Sn>}
             {cover == "Taylor Swift" && <Debut></Debut>}
             {cover == "1989" && <N1989></N1989>}
+            {cover == "Midnights" && <Midnights></Midnights>}
           </div>
           <div className="flex flex-col gap-4 items-center justify-center md:gap-6 md:items-end md:ml-8">
             <h2 className="ml-3 mr-3 text-white font-semibold text-xl md:text-2xl md:ml-0 md:mr-0">
