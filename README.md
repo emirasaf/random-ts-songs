@@ -2,9 +2,9 @@
 
 Random Taylor Swift Songs is a web application built with React that shows random Taylor Swift song lyrics. As a Swiftie, I wanted to make it easy for people to discover Taylor Swift songs, so I developed this application.
 
-You can access the application [here.](http://random-ts-songs.vercel.app/)
+You can access the application [here.](https://ts13.vercel.app)
 
-`http://random-ts-songs.vercel.app/`
+`https://ts13.vercel.app`
 ## How to Use
 
 Using the application is easy. Just click the link above and lyrics and song name will appear. If you want to see another lyric, simply click the "refresh" button.
